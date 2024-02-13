@@ -48,7 +48,7 @@ class Graph:
                 return False
         return True
 
-    @dispatch(int, int)
+    @dispatch(str, str)
     def shortest_path(self, start_data, goal_data):
         node1_index = -1
         node2_index = -1

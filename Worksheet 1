@@ -1,3 +1,5 @@
+from multipledispatch import dispatch
+
 class Graph:
 
     def _init_(self):
